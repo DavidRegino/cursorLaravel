@@ -18,4 +18,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-route::get('/bienvenido', [bienvenidoController:: class, 'Bienvenido']);
+route::get('/bienvenido', [bienvenidoController:: class, 'bienvenido']);
+
+route::get('/alumnos', [AlumnosController:: class, 'alumnos']);
