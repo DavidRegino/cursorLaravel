@@ -7,6 +7,10 @@ use Illuminate\Http\Request;
 class AlumnosController extends Controller
 {
     public function alumnos(){
-        $test="David";
+        return view('alumno');
+    }
+
+    public function inicio(){
+        return view('inicio');
     }
 }
